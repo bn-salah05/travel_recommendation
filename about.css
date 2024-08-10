@@ -1,0 +1,40 @@
+/* about.css */
+@import 'common.css';
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.company-info {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.member {
+    text-align: center;
+    margin: 1rem;
+    max-width: 300px;
+}
+
+.member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.member h3 {
+    color: #2c3e50;
+}
+
+.member p {
+    color: #555;
+}
